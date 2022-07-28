@@ -1,0 +1,22 @@
+Python Division
+
+Task 4
+The provided code stub reads two integers, a and b, from STDIN.
+
+Add logic to print two lines. The first line should contain the result of integer division,  a//b . The second line should contain the result of float division,  a/b .
+
+No rounding or formatting is necessary.
+
+Input:
+The first line contains the first integer, 4.
+The second line contains the second integer, 3.
+
+Code:
+    a = int(input())
+    b = int(input())
+    print(a//b)
+    print(a/b)
+
+Output:
+1
+1.3333333
